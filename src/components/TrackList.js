@@ -23,6 +23,7 @@ function TrackList() {
   const handleClick = (index) => {
     playTrack(index);
     setPlaying(currentTrackName);
+    console.log(isPlaying);
   };
   return (
     <Box>
@@ -77,7 +78,7 @@ function TrackList() {
                 <SkipPreviousIcon />
               </IconButton>
               <IconButton>
-                <PlayArrowIcon />
+                <PauseIcon />
               </IconButton>
               <IconButton>
                 <SkipNextIcon />
