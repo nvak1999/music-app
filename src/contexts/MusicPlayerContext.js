@@ -9,15 +9,15 @@ const defaultValues = {
   audioPlayer: new Audio(),
   tracks: [
     {
-      name: "Wake up to the Renaissance 1",
+      name: "Ovg! ",
       file: Track1,
     },
     {
-      name: "Wake up to the Renaissance 2",
+      name: "Kick back",
       file: Track2,
     },
     {
-      name: "Wake up to the Renaissance 3",
+      name: "What about me",
       file: Track3,
     },
   ],
